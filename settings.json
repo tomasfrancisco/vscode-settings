@@ -1,0 +1,57 @@
+{
+  // Theming
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.iconTheme": "vscode-icons",
+  // Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": false,
+    "source.fixAll.eslint": true
+  },
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.fontFamily": "FiraCode-Retina",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 25,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "window.zoomLevel": 0,
+  // Language
+  "[javascript]": {
+    // Editor
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.validate": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "less.validate": false,
+  "scss.validate": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // Extension -- Javascript/Typescript Linting
+  "eslint.alwaysShowStatus": true,
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Extension -- HEX color highlighting
+  "colorize.languages": [
+    "typescript",
+    "javascript",
+    "css",
+    "scss"
+  ],
+  // Extension -- TODO Filter shortcut
+  "todo-tree.filtering.ignoreGitSubmodules": true,
+  "todo-tree.tree.showScanModeButton": false
+}
