@@ -2,6 +2,10 @@
 
 _Commands assume you running MacOS_
 
+## Font
+
+Install [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)
+
 ## Settings
 
 Symlink `settings.json` to your local settings.
